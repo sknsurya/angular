@@ -1,0 +1,78 @@
+.back {
+    // position: absolute;
+    max-width: 100%;
+    height: 670px;
+    left: 0px;
+    top: 69px;
+    background: #01A761;
+}
+
+.bacont {
+    margin-bottom: 0%;
+    width: 670px;
+    height: 132px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 41px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+
+.baneercon {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 35px;
+    position: absolute;
+    width: 679px;
+    height: 340px;
+    left: 70px;
+    top: 220px;
+
+}
+
+.bacont1 {
+    width: 679px;
+    height: 88px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 0%;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 14px 32px;
+    gap: 20px;
+    width: 158px;
+    height: 48px;
+    background: #FCA838;
+    border-radius: 4px;
+}
+
+.btn1 {
+    width: 121px;
+    height: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.banimg {
+    position: absolute;
+    width: 311.69px;
+    height: 428.44px;
+    left: 801px;
+    top: 190px;
+
+}
