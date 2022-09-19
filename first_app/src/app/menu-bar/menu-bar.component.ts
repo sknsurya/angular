@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./menu-bar.component.scss']
 })
 export class MenuBarComponent implements OnInit {
-
+  sk : any = "surya" 
   constructor() { }
 
   ngOnInit(): void {
+  }
+  data(event : any){
+    this.sk=event.target.value
   }
 
 }
