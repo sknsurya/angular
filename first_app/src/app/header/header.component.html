@@ -22,8 +22,8 @@
 
     <p class="p">
         <button class="btn" (click)="mybtn($event)"></button>
-        <button class="btn"></button>
-        <button class="btn"></button>
+        <!-- <button class="btn"></button>
+        <button class="btn"></button> -->
             <!-- <button class="btn"></button>
             <button class="btn"></button>
             <button class="btn"></button> -->
@@ -31,12 +31,5 @@
                 {{s}}
             </span>
             </p>
-            <div>
-                <input type="text" (keyup)="data($event)" [(ngModel)] = "twoWayBinding" > 
-
-                <p>{{twoWayBinding}}</p>
             
-               <button [disabled] = "isEnable" (click)="enable()">clear</button>
-            </div>
-   
 </div>
