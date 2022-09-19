@@ -4,7 +4,7 @@
         height: 80px;
         display: flex;
         align-items: center;
-        background-color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
         margin-top: 20px;
         border-radius: 10px;
     }
@@ -18,8 +18,10 @@
 </style>
 <!-- <p class="p">menu-bar works!</p> -->
 <div class="p">
-    <button class="btn"></button>
-   
+    <!-- <button class="btn"></button> -->
+    <input type="text" (keyup)="data($event)" > 
+
+    <p>{{sk}}</p>
 
 </div>
 
