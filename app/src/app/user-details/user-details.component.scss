@@ -1,0 +1,50 @@
+img {
+    border-radius: 70px;
+    // width: 100px;
+    // height: 132px;
+}
+
+// button {
+//     border-radius: 20px;
+//     width: 100px;
+//     height: 50px;
+//     color: rgb(255, 255, 255);
+//     background-color: black;
+// }
+
+// email {}
+
+div {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 200px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    gap: 80px;
+    border-color: #000;    
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    color: grey;
+    font-size: 15px;
+}
+
+
+button:hover,
+a:hover {
+    opacity: 0.7;
+}
