@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { MenuBarComponent } from './menu-bar/menu-bar.component';
 import { HeaderComponent } from './header/header.component';
 import { BaneerComponent } from './baneer/baneer.component';
+import { ParentComponent } from './parent/parent.component';
+import { ChildComponent } from './child/child.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuBarComponent,
     HeaderComponent,
-    BaneerComponent
+    BaneerComponent,
+    ParentComponent,
+    ChildComponent
   ],
   imports: [
     BrowserModule,
