@@ -8,7 +8,7 @@ import { Component, EventEmitter, Input, OnInit, Output  } from '@angular/core';
 
 export class ChildComponent implements OnInit {
   @Input() user : any;
-  newUser : any=' '
+  newUser : any=' ' 
   @Output() addNewUser = new EventEmitter(); 
   constructor() { }
 
