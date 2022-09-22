@@ -8,6 +8,7 @@ import { ContectComponent } from './contect/contect.component';
 import { AboutAsComponent } from './about-as/about-as.component';
 import { Component1Component } from './component1/component1.component';
 import { Component2Component } from './component2/component2.component';
+import { ErrormsgComponent } from './errormsg/errormsg.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { Component2Component } from './component2/component2.component';
     ContectComponent,
     AboutAsComponent,
     Component1Component,
-    Component2Component
+    Component2Component,
+    ErrormsgComponent
   ],
   imports: [
 
