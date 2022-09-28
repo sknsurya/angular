@@ -4,7 +4,8 @@
     <li>{{user.name}}</li> -->
 
 <!-- </ul> -->
-
+<p>users-list works!</p>
+<p (click)="addUser()">Add New User</p>
 <table>
     <thead>
            <tr>
@@ -20,8 +21,8 @@
         <td>{{user.name}}</td>
         <td>{{user.email}}</td>
         <td>
-            <button>Edit</button>
-            <button>Delete</button>
+            <button (click)=" editUser(user.id)">Edit</button>
+            <button (click)="deleteUser(user.id)" >Delete</button>
         </td>
       </tr>
    </tbody>

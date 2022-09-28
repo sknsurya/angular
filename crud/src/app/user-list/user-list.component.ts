@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 import { environment } from 'src/environments/environment';
 import { AppService } from '../app.service';
 
@@ -8,8 +9,14 @@ import { AppService } from '../app.service';
   styleUrls: ['./user-list.component.scss']
 })
 export class UserListComponent implements OnInit {
+addUser() {
+throw new Error('Method not implemented.');
+}
+updateUser() {
+throw new Error('Method not implemented.');
+}
 userlist:any
-  constructor(private appservice:AppService) { }
+  constructor(private appservice:AppService,private routes:ActivatedRoute,private aroute:Router) { }
 
   ngOnInit(){
   this.getAlluser()
@@ -20,4 +27,10 @@ userlist:any
       })
     
     }  
+    editUser(id:Number){
+      this.aroute.navigate(['edit-user',id],{relativeTo:this.routes})
+    }
+    deleteUser(id:number){
+
+    }
 }

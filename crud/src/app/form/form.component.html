@@ -7,4 +7,7 @@
             <button class="btn" (click)="adduser()">ADDUSER</button>
         </div>
     </div>
-
+<div>
+    <button *ngIf="isUpdate" (click)="updateUser(userId)">update User</button>
+    <button *ngIf="!isUpdate" (click)="adduser()">Add User</button>
+</div>

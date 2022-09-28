@@ -6,7 +6,6 @@ import { environment } from 'src/environments/environment';
 })
 export class AppService {
 
-
   constructor(private httpClient: HttpClient) { }
   getAlluser() {
     return this.httpClient.get(environment.appurl + "/getuser")
@@ -15,10 +14,10 @@ export class AppService {
   addnewuser(body: any) {
     return this.httpClient.post(environment.appurl + '/insertuser', body)
   }
-//   getUserById(userDetail: any) {
-//     return this.httpClient.get(environment.appurl + '/getid', userDetail)
-//   }
-//   editUser(newUser: any) {
-// return this.httpClient.get(environment.appurl+'/updateuser',newUser)
-//   }
+  getUserById(userDetail: any) {
+    return this.httpClient.get(environment.appurl + '/getid', userDetail)
+  }
+  editUser(newUser: any) {
+    return this.httpClient.get(environment.appurl + '/updateuser', newUser)
+  }
 }
