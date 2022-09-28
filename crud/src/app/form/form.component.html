@@ -1,1 +1,10 @@
-<p>form works!</p>
+    <div class="input">
+        <label class="label" for="name">UserName</label><br>
+        <input class="input1" type="text" [(ngModel)]="name"><br>
+        <label class="label" for="email">Email</label><br>
+        <input class="input1" type="text" [(ngModel)]="email">
+        <div>
+            <button class="btn" (click)="adduser()">ADDUSER</button>
+        </div>
+    </div>
+
