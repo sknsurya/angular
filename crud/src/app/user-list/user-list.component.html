@@ -1,1 +1,29 @@
-<p>user-list works!</p>
+<!-- 
+<button (click)="getuser()">click</button> 
+<ul *ngFor="let user of userlist">
+    <li>{{user.name}}</li> -->
+
+<!-- </ul> -->
+
+<table>
+    <thead>
+           <tr>
+            <th>S.No</th>
+            <th>User Name</th>
+            <th>Email</th>
+            <th>Action</th>
+           </tr>
+    </thead>
+   <tbody>
+    <tr *ngFor="let user of userlist">
+        <td></td>
+        <td>{{user.name}}</td>
+        <td>{{user.email}}</td>
+        <td>
+            <button>Edit</button>
+            <button>Delete</button>
+        </td>
+      </tr>
+   </tbody>
+    
+  </table>
