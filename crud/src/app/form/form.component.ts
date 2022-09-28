@@ -2,8 +2,8 @@ import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { AppService } from '../app.service';
 import { NgModel } from '@angular/forms';
-import { ActivatedRoute, RoutesRecognized } from '@angular/router';
-import { Router } from 'express';
+// import { ActivatedRoute, RoutesRecognized } from '@angular/router';
+// import { Router } from 'express';
 @Component({
   selector: 'app-form',
   templateUrl: './form.component.html',
@@ -13,7 +13,8 @@ export class FormComponent implements OnInit {
   name: any
   email: any
   userId:any
-  constructor(private appservice: AppService, private router:Router,private aRoute:ActivatedRoute) { }
+  constructor(private appservice: AppService, ) { }
+  // private router:Router,private aRoute:ActivatedRoute
 
   ngOnInit(): void {
   }
