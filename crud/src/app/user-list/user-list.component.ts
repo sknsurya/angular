@@ -11,11 +11,13 @@ export class UserListComponent implements OnInit {
 userlist:any
   constructor(private appservice:AppService) { }
 
-  ngOnInit(): void {
-  
-      this.appservice.getalluser().subscribe((userdata) => {
+  ngOnInit(){
+  this.getAlluser()
+  }
+      getAlluser(){
+        this.appservice.getAlluser().subscribe((userdata) => {
         this.userlist=userdata
       })
-    }
     
+    }  
 }
