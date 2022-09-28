@@ -15,10 +15,10 @@ export class AppService {
   addnewuser(body: any) {
     return this.httpClient.post(environment.appurl + '/insertuser', body)
   }
-  getUserById(userDetail: any) {
-    return this.httpClient.get(environment.appurl + '/getid', userDetail)
-  }
-  editUser(newUser: any) {
-return this.httpClient.get(environment.appurl+'/updateuser',newUser)
-  }
+//   getUserById(userDetail: any) {
+//     return this.httpClient.get(environment.appurl + '/getid', userDetail)
+//   }
+//   editUser(newUser: any) {
+// return this.httpClient.get(environment.appurl+'/updateuser',newUser)
+//   }
 }

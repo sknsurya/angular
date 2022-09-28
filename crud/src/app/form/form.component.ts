@@ -26,20 +26,20 @@ export class FormComponent implements OnInit {
     })
   }
 
-  getUserById(userId: any){
-    this.appservice.getUserById(userId).subscribe((userDetail: any)=>{
-      console.log(userDetail)
-      this.name = userDetail['name']
-      this.email = userDetail['email']
-    })
-  }
+  // getUserById(userId: any){
+  //   this.appservice.getUserById(userId).subscribe((userDetail: any)=>{
+  //     console.log(userDetail)
+  //     this.name = userDetail['name']
+  //     this.email = userDetail['email']
+  //   })
+  // }
 
-  updateUser(){
-    this.appservice.editUser(this.userId,{"name":this.name,"email":this.email}).subscribe((newUser)=>{
-      console.log(newUser)
-      // this.router.navigate(['../'])
+  // updateUser(){
+  //   this.appservice.editUser(this.userId,{"name":this.name,"email":this.email}).subscribe((newUser)=>{
+  //     console.log(newUser)
+  //     // this.router.navigate(['../'])
 
-    })
-  }
+  //   })
+  // }
 
 }
